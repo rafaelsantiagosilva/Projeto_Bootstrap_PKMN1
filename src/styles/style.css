@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+*{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+#img_logo{
+    width: 700px;
+    height: 300px;
+}
+
+h1{
+    text-shadow: 2px 2px rgba(96, 77, 10, 0.622);
+    font-size: 4em;
+}
+
+.texto-sombra{
+    text-shadow: 2px 2px #0000007e;
+}
+
+div.card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.extra{
+    display: none;
+}
+
+.imgpkmn{
+    width: 100px;
+    height: 100px;
+    margin-top: 2em;
+}
+
+footer{
+    font-size: 1.5em;
+}
+
+/* Exclusivos para a pagina chose.html */
+img.pkmn_escolhido{
+    scale: 3.5;
+}
+
+h2.pkmn_nome{
+    font-size: 3em;
+}

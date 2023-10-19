@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="shortcut icon" href="./src/assets/img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+
+<body class="bg-dark">
+    <header class="container p-0 bg-danger text-center">
+        <img id="img_logo" src="./src/assets/img/pokemon.png" alt="BOOTSTRAP COM FUNDO ROXO">
+    </header>
+
+
+    <section class="container pt-3 pb-2 text-center text-light bg-danger p-0 fonte-pixel">
+        <h1 class="text-warning bem-vindo">BEM-VINDO AO LABORATÓRIO DO PROFESSOR OAK:</h1>
+        <h2 class="texto-sombra">Escolha seu pokemon</h2>
+    </section>
+
+    <section class="container p-8 bg-danger">
+        <div class="row text-center justify-content-center">
+            <!-- Card do Bulbassauro -->
+            <div class="card bg-success border-light align-items-center" style="width: 18rem;">
+                <img src="./src/assets/img/pkmn/bulbassauro.gif" class="card-img-top imgpkmn" alt="...">
+                <div class="card-body card-body-bottom">
+                  <h4 class="card-title">Bulbassauro</h4>
+                  <a href="./src/pages/1.html" class="btn btn-primary" id="1">Escolha</a>
+                </div>
+            </div>
+
+            <!-- Card do Squirtle -->
+            <div class="card bg-info border-light align-items-center" style="width: 18rem;">
+                <img src="./src/assets/img/pkmn/squirtle.gif" class="card-img-top imgpkmn" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Squirtle</h4>
+                  <a href="./src/pages/4.html" class="btn btn-primary" id="2" >Escolha</a>
+                </div>
+            </div>
+
+            <!-- Card do Charmander -->
+            <div class="card border-light align-items-center" style="width: 18rem; background-color: rgb(235, 146, 22);">
+                <img src="./src/assets/img/pkmn/charmander.gif" class="card-img-top imgpkmn" alt="...">
+                <div class="card-body card-body-bottom">
+                  <h4 class="card-title">Charmander</h4>
+                  <a href="./src/pages/7.html" class="btn btn-primary" id="3">Escolha</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center justify-content-center">
+            <!-- Card do Pikachu -->
+            <div id="pikachu" class="card bg-warning border-light align-items-center extra" style="width: 18rem;">
+                <img src="./src/assets/img/pkmn/pikachu.gif" class="card-img-top imgpkmn" alt="...">
+                <div class="card-body card-body-bottom">
+                  <h4 class="card-title">Pikachu</h4>
+                  <a href="./src/pages/24.html" class="btn btn-primary" id="4" onclick="alterar()">Escolha</a>
+                </div>
+
+            <!-- Card do Eevee -->
+            </div>
+            <div id="eevee" class="card border-light align-items-center extra" style="width: 18rem; background-color: rgb(211, 212, 213);">
+                <img src="./src/assets/img/pkmn/eevee.gif" class="card-img-top imgpkmn" alt="...">
+                <div class="card-body card-body-bottom">
+                  <h4 class="card-title">Eevee</h4>
+                  <a href="./src/pages/133.html" class="btn btn-primary" id="5">Escolha</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container text-center pt-3 pb-3 fonte-pixel bg-danger">
+        <p class="text-light texto-sombra">&copyTodos os direitos reservados</p>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="./src/js/timer.js"></script>
+</body>
+
+</html>
